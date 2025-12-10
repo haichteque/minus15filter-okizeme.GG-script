@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 200px; padding: 10px; font-family: sans-serif; text-align: center; }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .btn-filter { background-color: #ef4444; color: white; } /* Red */
+    .btn-filter:hover { background-color: #dc2626; }
+    
+    .btn-reset { background-color: #3b82f6; color: white; } /* Blue */
+    .btn-reset:hover { background-color: #2563eb; }
+    
+    h3 { margin: 0 0 10px 0; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h3>Okizeme Filter</h3>
+  <button id="filterBtn" class="btn-filter">Show -15 & Worse</button>
+  <button id="resetBtn" class="btn-reset">Reset (Show All)</button>
+  <script src="popup.js"></script>
+</body>
+</html>
